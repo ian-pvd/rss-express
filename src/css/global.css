@@ -1,0 +1,25 @@
+/**
+ * Global - Variables & media queries.
+ */
+
+ :root {
+	/* Color Contexts */
+	--c-accent-blue: #06aee0;
+	--c-bg-white: #ffffff;
+	--c-button-bg: #da352b;
+	--c-button-text: #ffffff;
+	--c-heading-text: #000000;
+	--c-highlight-bg: #2b3137;
+	--c-highlight-text: #ffffff;
+	--c-neutral-cool: #6c7982;
+	--c-site-ui: #2b3137;
+	--c-text-dark: #1b1b1b;
+	--c-border: #dee3e6;
+
+	/* Font Families */
+	--ff-sans: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, system-ui, sans-serif;
+	--ff-serif: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+
+	/* Layout */
+	--size-max-width: 48rem;
+}

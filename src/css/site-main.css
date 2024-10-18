@@ -1,0 +1,12 @@
+/**
+ * Site Main
+ */
+
+.site-main {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 0 auto 1rem;
+	max-width: var(--size-max-width);
+	padding: 0 1rem;
+}

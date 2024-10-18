@@ -1,0 +1,42 @@
+/**
+ * Site Footer
+ */
+
+.site-footer {
+	background-color: #dee3e6;
+	margin: 0;
+	padding: 0;
+}
+
+.site-footer__copyright {
+	display: flex;
+	font-size: 0.75rem;
+	padding: 0 1rem;
+	margin: 0 auto;
+	max-width: var(--size-max-width);
+}
+
+.site-footer__full-site {
+	background-color: var(--c-bg-white);
+	border-top: 1px solid var(--c-border);
+	margin: 2rem 0 0;
+	padding: 1rem 0 0;
+}
+
+.site-footer__site-link {
+	background-color: var(--c-highlight-bg);
+	color: var(--c-highlight-text);
+	display: flex;
+	font-size: 1.125rem;
+	font-weight: 700;
+	justify-content: center;
+	line-height: 1.25;
+	margin: 0.5rem auto;
+	max-width: calc(24rem - 1rem);
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+	}
+}

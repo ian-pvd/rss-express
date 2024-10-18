@@ -1,0 +1,54 @@
+/**
+ * Base - HTML, Typography, Headings, Links, Buttons
+ */
+
+body {
+	background-color: var(--c-bg-white);
+	color: var(--c-text-dark);
+	font-family: var(--ff-sans);
+	font-weight: normal;
+}
+
+a {
+	color: var(--c-accent-blue);
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--heading-text);
+	margin: 0 0 1rem;
+}
+
+h1 {
+	color: var(--c-heading);
+	color: var(--c-site-ui);
+	font-family: var(--ff-serif);
+	font-weight: 800;
+}
+
+h3 {
+	color: var(--c-heading);
+	font-family: var(--ff-serif);
+	font-size: 1.25rem;
+	font-weight: 800;
+	line-height: 1.2;
+}
+
+button,
+.button {
+	appearance: none;
+	background-color: var(--c-button-bg);
+	border-radius: 0.2em;
+	border: none;
+	color: var(--c-button-text);
+	display: flex;
+	font-family: var(--ff-serif);
+	font-weight: 700;
+	margin: 1rem 0;
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+}

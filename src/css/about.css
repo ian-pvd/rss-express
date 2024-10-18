@@ -1,0 +1,20 @@
+/**
+ * About
+ */
+
+.about {
+	margin: 0 auto;
+	max-width: var(--size-max-width);
+	padding: 1rem;
+}
+
+.about__title {
+	font-size: 1.5rem;
+	line-height: 1.25;
+}
+
+.about__description {
+	font-size: 0.875rem;
+	margin: 0;
+	line-height: 1.25;
+}

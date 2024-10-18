@@ -1,0 +1,86 @@
+/**
+ * Post List
+ * A post list section with a header and title.
+ */
+
+.post-list {
+	margin: 0 0 1rem;
+
+	@media (min-width: 768px) {
+		margin: 0 0 2rem;
+	}
+}
+
+.post-list__header {
+	align-items: flex-end;
+	border-bottom: 1px solid var(--c-neutral-cool);
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0.5rem 0;
+}
+
+.post-list__title {
+	font-size: 1.25rem;
+	margin: 0;
+}
+
+.post-list__top {
+	border: 2px solid currentColor;
+	color: var(--c-neutral-cool);
+	height: 1.5rem;
+	overflow: hidden;
+	padding: 0.25rem;
+	position: relative;
+	text-indent: 100vw;
+	white-space: nowrap;
+	width: 1.5rem;
+
+	&:hover {
+		color: var(--c-site-ui);
+	}
+
+	&::before {
+		align-items: center;
+		color: currentColor;
+		content: '▲';
+		display: flex;
+		font-size: 0.5rem;
+		height: 50%;
+		inset: 0;
+		justify-content: center;
+		line-height: 1;
+		position: absolute;
+		text-indent: 0;
+		width: 100%;
+	}
+
+	&::after {
+		color: currentColor;
+		content: 'TOP';
+		display: block;
+		font-size: 0.5rem;
+		font-weight: 700;
+		height: 50%;
+		inset: 0;
+		position: absolute;
+		text-align: center;
+		text-indent: 0;
+		top: 50%;
+		width: 100%;
+	}
+}
+
+.post-list__feed {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	list-style: none;
+	margin: 0;
+	padding: 1rem 0;
+
+	@media (min-width: 768px) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

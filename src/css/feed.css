@@ -1,0 +1,9 @@
+/**
+ * Feed
+ */
+
+.feed,
+.feed--category,
+.feed--latest {
+	margin: 0 0 1rem;
+}

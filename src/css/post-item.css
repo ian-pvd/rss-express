@@ -1,0 +1,65 @@
+/**
+ * Post Item
+ * Markup for a single post item in a list.
+ */
+
+.post-item {
+	margin: 0;
+
+	&:not(:last-child) {
+		padding: 0 0 1rem;
+		border-bottom: 1px solid var(--c-border);
+
+		@media (min-width: 768px) {
+			border-bottom: none;
+		}
+	}
+}
+
+.post-item__article {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	margin: 0.5rem 0;
+
+	& > * {
+		margin: 0;
+	}
+}
+
+.post-item__link {
+	color: inherit;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: var(--c-accent-blue);
+	}
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.post-item__byline,
+.post-item__pub-date {
+	color: var(--c-neutral-cool);
+	font-size: 0.875rem;
+	margin: 0;
+}
+
+.post-item__category {
+	background-color: var(--c-highlight-bg);
+	color: var(--c-bg-white);
+	display: inline-flex;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	margin: 0 auto 0.75rem 0;
+	padding: 0.25rem 0.5rem;
+	text-transform: uppercase;
+
+	.feed--category & {
+		display: none;
+	}
+}

@@ -1,0 +1,53 @@
+/**
+ * Article
+ */
+
+.article__category {
+	background-color: var(--c-highlight-bg);
+	color: var(--c-bg-white);
+	display: inline-flex;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	margin: 0 0 0.75rem;
+	padding: 0.25rem 0.5rem;
+	text-transform: uppercase;
+}
+
+.article__byline,
+.article__pub-date {
+	color: var(--c-neutral-cool);
+	font-size: 0.875rem;
+	margin: 0;
+}
+
+.article__content {
+	font-size: 1rem;
+	line-height: 1.5;
+
+	& > * {
+		margin: 0 0 1rem;
+	}
+
+	& p:not([data-pp-blocktype="copy"]) {
+		color: var(--c-neutral-cool);
+		font-size: 0.875rem;
+	}
+}
+
+.article__links {
+	display: flex;
+	justify-content: space-between;
+
+	& a {
+		color: var(--c-neutral-cool);
+		font-size: 0.875rem;
+		border: 2px solid currentColor;
+		padding: 0.25rem;
+
+		&:hover {
+			color: var(--c-site-ui);
+			text-decoration: none;
+		}
+	}
+}
