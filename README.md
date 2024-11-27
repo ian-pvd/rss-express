@@ -18,20 +18,20 @@ If you need to build the theme assets:
 
 ### Index, Mobile:
 <a target="_blank" href="./images/index-iphone.png" rel="noopener noreferrer">
-    <img src="./images/index-iphone.png" alt="Index, Mobile" style="max-width: 160px;">
+    <img src="./images/index-iphone.png" alt="Index, Mobile" width="160px">
 </a>
 
 ### Article, Mobile:
 <a target="_blank" href="./images/article-iphone.png" rel="noopener noreferrer">
-    <img src="./images/article-iphone.png" alt="Article, Mobile" style="max-width: 160px;">
+    <img src="./images/article-iphone.png" alt="Article, Mobile" width="160px">
 </a>
 
 ### Index, Desktop:
 <a target="_blank" href="./images/index-desktop.png" rel="noopener noreferrer">
-    <img src="./images/index-desktop.png" alt="Index, Desktop" style="max-width: 256px;">
+    <img src="./images/index-desktop.png" alt="Index, Desktop" width="256px">
 </a>
 
 ### Article, Desktop:
 <a target="_blank" href="./images/article-desktop.png" rel="noopener noreferrer">
-    <img src="./images/article-desktop.png" alt="Article, Desktop" style="max-width: 256px;">
+    <img src="./images/article-desktop.png" alt="Article, Desktop" width="256px">
 </a>
